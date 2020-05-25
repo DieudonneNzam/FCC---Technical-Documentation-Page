@@ -1,0 +1,43 @@
+html{
+    font: 14px Helvetica;
+    background: grey;
+}
+
+#navbar{
+    background: white;
+    margin-right: 400px;
+    left: 0px;
+    height: 100%;
+    position: fixed;
+    min-width: 300px;
+
+     
+}
+
+#navbar a{
+   
+    font-size: 24px;
+    text-decoration: none;
+    display: block;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+#main-doc{
+ background: white;
+ display: block;
+ margin-left: 305px;
+ float:right;
+}
+
+@media only screen and (max-width: 400px){
+    
+    html {
+        min-width: 200px;
+    
+}
+}
